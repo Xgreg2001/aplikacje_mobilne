@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">zadanie2_kotlin</string>
+    <string name="rock_paper_scisors">Rock, Paper, Scisors</string>
+    <string name="rock">rock</string>
+    <string name="score">"score: 0–0"</string>
+    <string name="paper">paper</string>
+    <string name="scissors">scissors</string>
+    <string name="your_choice_label">Your choice:</string>
+    <string name="computer_choice_label">Computer\'s choice:</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rock_paper_scisors"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/your_choice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/your_choice"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toBottomOf="@+id/game_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/computer_choice"
+        app:layout_constraintBottom_toTopOf="@id/paper_button"
+        />
+
+    <ImageView
+        app:layout_constraintTop_toTopOf="@id/your_choice"
+        app:layout_constraintStart_toEndOf="@id/your_choice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/your_choice"
+        android:id="@+id/computer_choice"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/rock_button"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:onClick="rockButtonClicked"
+        android:text="@string/rock"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/paper_button"
+        app:layout_constraintEnd_toStartOf="@+id/paper_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/paper_button" />
+
+    <Button
+        android:id="@+id/paper_button"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:onClick="paperButtonClicked"
+        android:text="@string/paper"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/your_choice"
+        app:layout_constraintBottom_toTopOf="@+id/score_text"
+        app:layout_constraintEnd_toStartOf="@+id/scissors_button"
+        app:layout_constraintStart_toEndOf="@+id/rock_button" />
+
+    <Button
+        android:id="@+id/scissors_button"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:onClick="scissorsButtonClicked"
+        android:text="@string/scissors"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/paper_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/paper_button"
+        app:layout_constraintTop_toTopOf="@+id/paper_button" />
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paper_button" />
+
+    <TextView
+        android:id="@+id/your_choice_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_choice_label"
+        app:layout_constraintBottom_toTopOf="@+id/rock_button"
+        app:layout_constraintEnd_toEndOf="@+id/your_choice"
+        app:layout_constraintStart_toStartOf="@+id/your_choice"
+        app:layout_constraintTop_toBottomOf="@+id/your_choice"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/computer_choice_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/computer_choice_label"
+        app:layout_constraintBottom_toTopOf="@+id/scissors_button"
+        app:layout_constraintEnd_toEndOf="@+id/computer_choice"
+        app:layout_constraintStart_toStartOf="@+id/computer_choice"
+        app:layout_constraintTop_toBottomOf="@+id/computer_choice"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

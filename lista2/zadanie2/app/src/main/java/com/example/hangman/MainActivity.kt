@@ -79,6 +79,7 @@ class MainActivity : AppCompatActivity() {
         currentWord = words.random()
         wordTextView.text = "?".repeat(currentWord.length)
         imageView.setImageResource(R.drawable.hangman0)
+        textInput.text = ""
 
         button.setOnClickListener() {
             take_input(button, textInput, words, wordTextView, imageView)

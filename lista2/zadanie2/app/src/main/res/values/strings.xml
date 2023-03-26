@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">hangman</string>
+    <string name="button_guess">Guess</string>
+    <string name="text_edit_hint">Enter a letter</string>
+    <string name="content_description">Hangman progress</string>
+    <string name="button_play_again">Play again!</string>
+
+    <string-array name="dictionary">
+        <item>android</item>
+        <item>application</item>
+        <item>activity</item>
+        <item>intent</item>
+        <item>service</item>
+        <item>broadcast</item>
+    </string-array>
+</resources>

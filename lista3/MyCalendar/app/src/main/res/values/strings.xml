@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyCalendar</string>
+    <string name="date_dd_mm_yyyy">Date: DD/MM/YYYY</string>
+    <string name="add_event">New Event</string>
 </resources>

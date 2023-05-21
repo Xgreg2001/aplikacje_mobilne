@@ -16,6 +16,6 @@ interface GameDao {
     @Query("SELECT * FROM game_data_table WHERE username = :username")
     fun getUserData(username: String): LiveData<List<GameData>>
 
-    @Query("SELECT * FROM game_data_table ORDER BY score DESC")
+    @Query("SELECT * FROM game_data_table ORDER BY score DESC LIMIT 10")
     fun getAllDataSortedByScore(): LiveData<List<GameData>>
 }

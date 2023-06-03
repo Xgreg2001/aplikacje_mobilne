@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/button_0_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/button_0_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/button_0_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/button_1_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/button_1_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/button_1_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/button_2_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/button_2_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/button_2_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:onClick="onButtonClick" />
+
+    </GridLayout>
+
+</RelativeLayout>

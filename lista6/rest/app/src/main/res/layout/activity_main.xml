@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        >
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz wyrażenie" />
+
+        <Button
+            android:id="@+id/button_simplify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simplify" />
+
+        <Button
+            android:id="@+id/button_factor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Factor" />
+
+        <Button
+            android:id="@+id/button_derive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Derive" />
+
+        <Button
+            android:id="@+id/button_integrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrate" />
+
+        <Button
+            android:id="@+id/button_zeroes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zeroes" />
+
+        <Button
+            android:id="@+id/button_tangent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tangent" />
+
+        <Button
+            android:id="@+id/button_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area" />
+
+        <Button
+            android:id="@+id/button_cos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cos" />
+
+        <Button
+            android:id="@+id/button_sin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sin" />
+
+        <Button
+            android:id="@+id/button_tan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tan" />
+
+        <Button
+            android:id="@+id/button_arccos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arccos" />
+
+        <Button
+            android:id="@+id/button_arcsin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arcsin" />
+
+        <Button
+            android:id="@+id/button_arctan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arctan" />
+
+        <Button
+            android:id="@+id/button_abs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abs" />
+
+        <Button
+            android:id="@+id/button_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log" />
+
+    </LinearLayout>
+
+</ScrollView>
+
